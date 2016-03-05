@@ -1,0 +1,7 @@
+brainzjhipster-dev-mongodb:
+  container_name: brainzjhipster-dev-mongodb
+  image: mongo:3.0.7
+  # volumes:
+  #   - ~/volumes/jhipster/BrainzJHipster/dev-mongodb/:/data/db/
+  ports:
+    - "27017:27017"

@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "BrainzJHipster",
+    "packageName": "com.brainz.server",
+    "packageFolder": "com/brainz/server",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "hazelcast",
+    "websocket": "no",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "gulp",
+    "enableTranslation": true,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "6cd7f401cd598fd89fc31ef230446db16683da82",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
